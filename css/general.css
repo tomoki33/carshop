@@ -1,0 +1,114 @@
+/* a {
+    background-color: green !important;
+} */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main_navigation{
+    background-color: wheat;
+    text-decoration:none;
+    margin:7px
+}
+
+.main_navigation:hover{
+    background-color: rgb(230,160,90);
+}
+#product_table{
+    margin:auto;
+    width:100%;
+    border-collapse: separate;
+    empty-cells: hide;
+    border-spacing:10px;
+}
+
+/* div span{
+    background-color: fuchsia;
+}
+
+div,p {
+    background-color: greenyellow;
+} */
+
+#website_header{
+    color:rgb(34,149,181);
+    font-size:33px;
+    font-weight:normal;
+    font-style:normal;
+    text-transform: capitalize;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:-1px 1px 0px yellow;
+    /* text-indent: 20px; */
+    /* letter-spacing:5px;
+    word-spacing: 50px; */
+}
+#car_brands_list li  {
+    list-style-type: square;
+    list-style-position:inside;
+    /* list-style:url("../images/green_button.png") circle inside; */
+}
+
+#about_us_banner{
+    /* background-image: url("../images/skyscraper_picture.jpg"); */
+height:500px;
+/* background-repeat: no-repeat;
+/* background-position: -150px 300px; */
+/*  */
+/* background-size: center center; */ 
+background: url("../images/skyscraper_picture.jpg") yellow no-repeat 0px 0px;
+width:50%;
+}
+#container{
+    width:75%;
+    margin:auto;
+    background-color: whitesmoke;
+    padding:25px;
+}
+
+.about_us_photo {
+    height: 250px;
+    width: 250px;
+    background-color: green;
+    box-sizing: content-box;
+    /* box-shadow: 20px 40px 5px orange; */
+    /* margin auto will horizontally center the element */
+    /* margin: auto; */
+    /* TRBL */
+    /* margin: 0px 30px 30px 30px; */
+    /* [LRTB] */
+    margin: 20px;
+
+    /* margin-top: 10px */
+    /* margin-bottom:10px; */
+    /* margin-left:10px */
+    /* margin-right:10px */
+
+    /* margin [T&B] [L&R] */
+    /* margin: 50px 10px */
+
+    padding: 30px;
+    background-size: 270px 270px;
+    border: 10px black solid;
+}
+
+#office_1{
+    background-image: url("../images/office_1.jpg");
+}
+
+#office_2{
+    background-image: url("../images/office_2.jpeg");
+
+}
+
+#office_3{
+    background-image: url("../images/office_3.jpeg");
+}
+
+#office_4{
+    background-image: url("../images/office_4.jpeg");
+}
+
+#lastname:focus{
+    background-color:yellow;
+}
